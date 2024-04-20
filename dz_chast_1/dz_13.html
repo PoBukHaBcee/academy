@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Запись на курсы</h1>
+      <p><hr/></p>
+  <div>
+   <form action="#" method="post">
+    <p>
+      <label for="name">Имя</label><br/>
+      <input type="text" id="name" name="name" placeholder="Алексей"/>
+    </p>
+    <p>
+      <div><label>Язык програмирования:</label></div>
+      <div><input type="radio" name="language" value="c_++"/><label for="language">C++</label></div>
+      <div><input type="radio" name="language" value="php" checked/><label for="language">PHP</label></div>
+      <div><input type="radio" name="language" value="python"/><label for="language">Python</label></div>
+    </p>
+    <p>
+      <label for="info">Дополнительная информация:</label><br/>
+      <textarea id="info" rows="3" cols="30" placeholder="Есть опыт програмирования на C++"></textarea>
+    </p>
+    <p>
+      <label for="secret">Секретное слово:</label><br/>
+      <input id="secret" type="password" value="secretword"/>
+    </p>
+    <p>
+        <button>Отправить</button>
+        <button>Очистить</button>
+    </p>
+    <button><a href="/index.html">Назад</a></button>
+</body>
+</html>
