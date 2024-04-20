@@ -1,0 +1,17 @@
+li {
+   list-style: none;
+   width: 175px;
+}
+
+ul li{
+    margin: 10px;
+}
+
+li:hover{
+    color:white;
+    background-color: rgb(232, 61, 61);
+}
+
+a{
+    text-decoration: none;
+}

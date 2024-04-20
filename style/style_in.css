@@ -1,0 +1,43 @@
+.vivi {
+    display: block;
+    padding: 20px;
+    border: 3px solid  rgb(168, 0, 11);
+    border-radius: 15px;
+    background-color: rgb(168, 0, 11);
+    color: white;
+}
+
+li{
+    list-style: none;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    height:50px;
+    background-color: rgba(255, 255, 255, 0.537);
+    color: wheat;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.chast{
+    background-color: rgb(255, 208, 121);
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}

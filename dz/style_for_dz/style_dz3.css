@@ -1,0 +1,13 @@
+.block {
+	border: 1px solid black;
+	background: white;
+	left: 20px;
+	top: 200px;
+	width: 100px;
+	position:fixed;
+	text-align:center;
+}
+
+.text{
+    margin-left: 8%;
+}

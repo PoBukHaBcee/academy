@@ -1,0 +1,45 @@
+.block{
+    border: solid 1px black ;
+    padding: 50px;
+    gap: 50px;
+    display: flex;
+    margin: 10px auto;
+}
+
+*{
+    display: flex;
+}
+
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+}
+
+.green{
+    width: 500px;
+    height: 400px;
+    background-color: green;
+    display: flex;
+}
+
+.blue{
+    width: 100px;
+    height: 400px;
+    background-color: blue;
+    display: flex;
+}
+
+.yellow{
+    width: 500px;
+    height: 100px;
+    background-color: yellow;
+    display: flex;
+}
+
+.vivi{
+    flex-wrap: wrap;
+    gap: 20px;
+    display: flex;
+}
