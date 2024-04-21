@@ -1,0 +1,13 @@
+body{
+    background-color: #867c73;
+}
+
+.gold{
+    background-color: green;
+    margin: 10px 35%;
+    padding: 50px;
+    justify-content: center;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 0px rgb(139, 0, 0);
+}

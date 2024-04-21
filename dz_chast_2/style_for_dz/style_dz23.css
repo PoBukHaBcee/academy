@@ -1,0 +1,25 @@
+body{
+    background-color: gray;
+}
+.wrap {
+   margin: 40px auto;
+	 width: 250px;
+}
+.block {
+  width: 0;
+	height: 0;
+	display: inline-block;
+}
+.left, .right {
+	border: 35px solid #006716;
+  border-top: none;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	
+}
+.center {
+  border: 100px solid #006716;
+  border-bottom: none;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+}
