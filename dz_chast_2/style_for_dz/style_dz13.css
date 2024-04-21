@@ -1,0 +1,9 @@
+body{
+    text-align: right;
+}
+
+div{
+    display: block;
+    color: brown;
+    margin: 10px 0;
+}

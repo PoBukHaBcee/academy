@@ -1,0 +1,8 @@
+body{
+    background-color: #ddd090;
+}
+
+.block{
+    border-left: blue 3px dotted;
+    padding-left: 10px;
+}

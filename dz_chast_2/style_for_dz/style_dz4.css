@@ -1,0 +1,15 @@
+.hp1{
+    font-size: 35px;
+    font-weight: 600;
+    color: green;
+}
+
+.hp2{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(63, 115, 0);
+}
+
+.block{
+    margin:10px 35%;
+}

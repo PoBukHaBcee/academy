@@ -1,0 +1,33 @@
+body {
+      background-color: darkcyan;
+}
+
+div {
+	width: 400px;
+	height: 60px;
+	border-top: 6px double green;
+	border-bottom: 6px double green;
+	margin: 20px 30px 30px 30px;
+	padding: 20px;
+	background-color: white;
+}
+
+p {
+  color: darkorange;
+	text-align: justify;
+	text-indent: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.var3 {
+  overflow: scroll;
+}
+
+.var2 {
+  overflow: hidden;
+}
+
+.var1 {
+  overflow-y: scroll;
+}

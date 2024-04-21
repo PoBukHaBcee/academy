@@ -1,0 +1,17 @@
+.why{
+    color: red;
+}
+
+p::first-line{
+    color: blue;
+}
+
+.block{
+    display: flex;
+    margin: 10px 40%;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 30px;
+}

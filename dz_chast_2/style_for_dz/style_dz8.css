@@ -1,0 +1,11 @@
+.block{
+    background-color: black;
+    color: orange;
+    border: 2px solid red;
+    margin:10px 35%;
+    padding: 20px;
+}
+
+body{
+    background-color: rgb(232, 198, 111);
+}
