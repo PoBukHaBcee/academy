@@ -7,6 +7,10 @@
     color: white;
 }
 
+body{
+    background-color: #e9e6df;
+}
+
 li{
     list-style: none;
     margin: 5px;

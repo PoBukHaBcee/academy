@@ -1,0 +1,63 @@
+div {
+	margin: 60px;
+    justify-self: ce;
+}
+span {
+	font-size: 80px;
+	letter-spacing: 15px;
+}
+.end {
+	margin-left: -35px;
+}
+.first {
+	margin-right: 20px;
+}
+.top-left {
+	position: relative;
+	display: inline-block;
+	border: 1px solid black;
+	width: 15px;
+	height: 15px;
+	background: black;
+	top: -30px;
+}
+.bootom-left {
+	position: relative;
+	display: inline-block;
+	border: 1px solid black;
+	width: 15px;
+	height: 15px;
+	background: black;
+	top: 4px;
+	left: -20px;
+}
+.center {
+	position: relative;
+	display: inline-block;
+	border: 1px solid black;
+	width: 15px;
+	height: 15px;
+	background: black;
+	top: -13px;
+	left: -25px;
+}
+.top-right {
+	position: relative;
+	display: inline-block;
+	border: 1px solid black;
+	width: 15px;
+	height: 15px;
+	background: black;
+	top: -30px;
+	left: -30px;
+}
+.bootom-right {
+	position: relative;
+	display: inline-block;
+	border: 1px solid black;
+	width: 15px;
+	height: 15px;
+	background: black;
+	left: -50px;
+	top: 4px;
+}

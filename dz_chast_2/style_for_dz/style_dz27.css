@@ -1,0 +1,27 @@
+.bor{
+	padding-top: 20px;
+	line-height: 0px;
+	width: 120px;
+	height: 60px;
+	text-align: center;
+	margin-top: -70px;
+	float: right;
+	border: 2px dotted  #8B0000;
+	border-radius: 10px;
+}
+
+.big {
+	margin-top: 35px;
+	text-align: center;
+	color: red;
+	font-size: 45px;
+}
+
+.red {
+	color: red;
+	font-size: 23px;
+}
+
+.block{
+    margin:50px 36%;
+}
