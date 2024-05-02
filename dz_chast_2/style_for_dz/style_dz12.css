@@ -1,0 +1,32 @@
+.container {
+    margin: 0 30%;
+}
+.upper-title{
+    position: relative; 
+    margin: 0 0 -10px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #E25B83;
+    overflow: hidden;
+}
+.upper-title > span:after{
+    content: "";
+    position: absolute;
+    top: 55%;
+    height: 1px;
+    width: 100%;
+    margin-left: 10px; 
+    background: #E4CFD4;
+}
+.lower-title {
+    font-size: 10px;
+    color: #808080;
+}
+.black-background {
+    padding: 10px;
+    background: #181818;
+    color: #FFFFFF;
+}
+.color-red {
+    color: #E25B83;
+}

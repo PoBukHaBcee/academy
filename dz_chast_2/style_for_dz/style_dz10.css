@@ -1,0 +1,23 @@
+.build-project-block{
+    width: 550px;
+    padding: 2px 30px;
+    margin: 20px;
+    box-sizing: border-box;
+    border-left: 2px solid #CBCBCB;
+}
+
+.server-commands{
+    padding: 2px;
+    background-color: #F6F5F3;
+    border: 1px solid #CBCBCB; 
+}
+
+.scrollable{
+    white-space: nowrap;
+    overflow-x: scroll; 
+}
+
+.blue-text{
+    color: #1500ff;
+}
+  

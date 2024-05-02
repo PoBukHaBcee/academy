@@ -1,0 +1,46 @@
+div {
+    width: 530px;
+    margin: 60px auto;
+    padding: 5px 30px;
+    color: #566076;
+}
+h1 {
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+}
+pre {
+    display: block;
+    background-color: #FAFAFA;
+    padding: 5px;
+    border-radius: 5px;
+}
+code {
+    display: inline-block;
+    background-color: #FAFAFA;
+    padding: 7px;
+    border-radius: 5px;
+}
+.overflow {
+    overflow-x: scroll;
+}
+.tag {
+    color: #000080;
+}
+.atribute {
+    color: #008080;
+}
+.value {
+    color: #d01040;
+}
+
+.comment {
+    color: #999988;
+}
+.bold {
+    color: #000000;
+    font-weight: bold;
+}
+.num {
+    color: #0086b3;
+}
