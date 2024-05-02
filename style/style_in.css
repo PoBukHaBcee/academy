@@ -1,10 +1,22 @@
-.vivi {
-    display: block;
-    padding: 20px;
+header, footer{
     border: 3px solid  rgb(168, 0, 11);
-    border-radius: 15px;
     background-color: rgb(168, 0, 11);
+    display: flex;
+    padding: 20px;
+    border-radius: 15px;
     color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer{
+    
+}
+
+nav a {
+    background-color: #000d3d;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 body{
@@ -18,19 +30,20 @@ li{
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(219, 219, 219);
 }
 
 button{
-    height:50px;
-    background-color: rgba(255, 255, 255, 0.537);
+    height:30px;
+    background-color: rgba(47, 0, 0, 0.537);
     color: wheat;
     font-weight: 500;
     border-radius: 8px;
+    border: none;
 }
 
 button:hover{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 8, 119, 0.8);
 }
 
 .chast{
@@ -44,4 +57,9 @@ button:hover{
 ul{
     display: flex;
     flex-wrap: wrap;
+}
+
+h1{
+    margin: 10px;
+    color: brown ;
 }
