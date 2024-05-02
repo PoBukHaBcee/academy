@@ -1,0 +1,96 @@
+body {
+    font-size: 12px;
+      font-family: sans;
+  }
+  
+  nav {
+    width: 200px;
+    margin: 30px auto;
+    padding: 0px 10px;
+      border: 1px solid black;
+  }
+  ul {
+    list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+  .main-menu {
+      overflow: hidden;
+  }
+  .main-menu > li{
+    border-bottom: 1px solid #BABABA;
+  }
+  .submenu {
+    width: 180px;
+    margin-top: 3px;
+      margin-left: 5px;
+      padding-bottom: 6px;
+      display: none;
+  }
+  .submenu li {
+    position: relative;
+  }
+  a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 0;
+  }
+  .active > a, a:hover{
+    color: #797E94;
+    text-decoration: underline;
+  }
+  .submenu a {
+    padding: 3px;
+  }
+  .submenu a::before, .submenu a::after {
+    content: "";
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-color: black;
+      margin: 4px 3px 0 0;
+      position: absolute;
+      top: 0px;
+      left: -5px;
+      display: block;
+  }
+  .submenu a::before {
+    border-width: 4px 0 4px 4px;
+      border-bottom-color: transparent;
+      border-top-color: transparent;
+  }
+  .submenu a::after {
+    border-width: 4px 4px 0 4px;
+      border-left-color: transparent;
+      border-right-color: transparent;
+      left: -15px;
+  }
+  
+  .slide {
+    display: none;
+    margin-left: 10px;
+  }
+  .slide a::before, .slide a::after {
+    display: none;
+  }
+  
+   input {
+      display: none;
+  }
+  
+   input:checked ~ .submenu{
+    display: block;
+  }
+   input:checked ~ .slide{
+    display: block;
+  }
+  #active:checked + a {
+      padding-bottom: 0;
+  }
+  input:checked + a::before {
+      display: none;
+  }
+  input:checked + a::after {
+      left: -5px;
+  }

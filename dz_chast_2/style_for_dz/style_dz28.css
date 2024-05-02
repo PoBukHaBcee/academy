@@ -1,0 +1,52 @@
+body {
+    font-size: 14px;
+    font-family: sans;
+ }
+ 
+ .modal {
+    position: relative;
+    width: 795px;
+    margin: 60px auto;
+    padding: 10px;
+    height: 35px;
+    border: 1px solid #AAE7BC;
+    background-color: #D8F7E1;
+ }
+ .close {
+    display: none;
+ }
+ h3 {
+    margin: 0 5px 0 40px;
+    font-size: 15px;
+    color: #01327E;
+ }
+ #lock {
+    position: absolute;
+    top: 10px;
+ }
+ p {
+    margin-left: 40px;
+    margin-top: 3px;
+    color: #008120;
+    padding-top: 0;
+ }
+ button {
+    position: absolute;
+    top: 22px;
+    right: 17px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #6AC979;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2050%2050%22%20id%3D%22cross%22%3E%3Cpath%20d%3D%22M37.304%2011.282l1.414%201.414-26.022%2026.02-1.414-1.413z%22%20stroke%3D%22%23D8F7E1%22%20fill%3D%22%23D8F7E1%22%20stroke-width%3D%2210%22%2F%3E%3Cpath%20d%3D%22M12.696%2011.282l26.022%2026.02-1.414%201.415-26.022-26.02z%22%20stroke%3D%22%23D8F7E1%22%20fill%3D%22%23D8F7E1%22%20stroke-width%3D%2210%22%2F%3E%3C%2Fsvg%3E");
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+   background-size: 8px;
+   border: none;
+   padding: 0;
+   cursor: pointer;
+ }
+ #close:hover {
+   box-shadow: 0 0 3px rgba(0,0,0,.75);
+ }
+ 
