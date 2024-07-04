@@ -1,8 +1,0 @@
-// // 1
-// let hi = prompt("Напишите ваше имя, пожалуйста")
-// console.log("Привет "+hi);
-
-// 2
-let year = +prompt("Введите ваш год рождения")
-const years = 2024
-console.log("Вам на 2024 год " + years - year + "лет");
